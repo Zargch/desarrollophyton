@@ -13,7 +13,7 @@ class Usuario(Base):
 
 # Modificar la URL de conexión para MySQL
 # Sustituye 'usuario', 'contraseña', 'localhost' y 'nombre_de_base_de_datos' con tus propios valores
-engine = create_engine('mysql+pymysql://root:2hefbFfDEc-HFd1fhc2DhBCCgh-HCB65@monorail.proxy.rlwy.net:20020/Libreria3')
+engine = create_engine('mysql+pymysql://root:2gHECeeD1-BBHgF6CFahCEA4fDd3HGF5@viaduct.proxy.rlwy.net:47534/railway')
 
 # Crear las tablas en la base de datos
 Base.metadata.create_all(engine)
